@@ -1,0 +1,237 @@
+body {
+  font-family: Montserrat extrabold;
+  margin: 0;
+  background-image: url('Inicio/Inicio imagenes/Fondo.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+
+
+header {
+  background-color: #FFED00;
+    background-size: cover;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    box-shadow: 0 2px 20px rgb(0, 0, 0);
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150%;
+    max-width: 1280px;
+    padding: 0 20px;
+  }
+  
+  .logo-container img {
+    height: 80px;
+    margin-left: -60px;
+    margin-top: 10px;
+  }
+  
+  .button-container {
+    display: flex;
+    align-items: center;
+    margin-right: -60px;
+  }
+  
+  .primary-button {
+    background-color: #E30613;
+    font-family: Josefin Sans;
+    font-weight: bold;
+    color: #ffffff;
+    border: none;
+    border-radius: 2px;
+    padding: 8px 12px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .secondary-button {
+    background-color: #ffffff;
+    color: #E30613;
+    border: 1px solid #E30613;
+    border-radius: 2px;
+    padding: 8px 12px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: josefin sans;
+    font-weight: bold;
+  }
+
+  
+  .seccion-con-imagen {
+    background-image: url("Inicio/Inicio imagenes/Patron.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 110px;
+    width: 100%; 
+    margin-top: -20px;
+  }
+  
+.seccion-con-imagen2 {
+    background-image: url("Inicio/Inicio imagenes/Patron.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 110px;
+    width: 100%; 
+    margin-top: 5px;
+}
+
+
+.dicken {
+  font-size: 70px
+}
+.proporción {
+    font-size: 26px; font-family: Montserrat regular; margin-top: -45px;
+}
+
+
+#hero{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 740px;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0)
+  )
+  ,url("Inicio/Inicio imagenes/Banner Inicio.jpg");
+  background-repeat: no-repeat;
+  background-size: 110%;
+  background-position: center center;
+  color: white;
+  margin-bottom: 20px;
+}
+
+
+#texto {
+  padding: 100px 0;
+}
+
+.metal {
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  width: 45%;
+  margin-right: 350px;
+}
+
+.image img {
+  max-width: 100%;
+  margin-left: 250px;
+}
+
+.text {
+  width: 60%;
+  margin-right: 200px;
+}
+
+h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  font-family: montserrat;
+}
+
+
+
+
+#pastilla {
+  background-image: url("Inicio/Inicio imagenes/Sin-título-1.jpg");
+  color: white;
+  background-repeat: repeat-x;
+  background-size: auto 100%;
+  padding: 90px;
+  margin-top: -1.5cm;
+}
+
+#pastilla h2 {
+  margin-top: 0;
+}
+
+#pastilla p {
+  margin-bottom: 0;
+}
+
+#pastilla .container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+#pastilla .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 -10px;
+}
+
+#pastilla .col-md-6 {
+  width: calc(50% - 20px);
+  padding: 10px;
+  text-align: left;
+  margin-top: 50px;
+}
+.Textt {
+  font-family: montserrat regular;
+  font-size: 18px;
+}
+ul {
+  font-family: montserrat regular;
+  font-size: 18px;
+}
+
+li {
+  margin-bottom: 7px; 
+}
+
+
+footer {
+  background-color: #E30613;
+  padding: 20px 0;
+  text-align: center;
+  color: white;
+}
+
+footer h3 {
+  margin-bottom: 20px;
+  color: white;
+}
