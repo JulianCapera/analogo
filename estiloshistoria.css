@@ -1,0 +1,574 @@
+body {
+  font-family: Montserrat extrabold;
+  margin: 0;
+  background-image: url('Inicio/Inicio imagenes/Fondo.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+
+header {
+  background-color: #FFED00;
+    background-size: cover;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    box-shadow: 0 2px 20px rgb(0, 0, 0);
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150%;
+    max-width: 1280px;
+    padding: 0 20px;
+  }
+  
+  .logo-container img {
+    height: 80px;
+    margin-left: -60px;
+    margin-top: 10px;
+  }
+  
+  
+  .button-container {
+    display: flex;
+    align-items: center;
+    margin-right: -60px;
+  }
+  
+  .primary-button {
+    background-color: #E30613;
+    font-family: Josefin Sans;
+    font-weight: bold;
+    color: #ffffff;
+    border: none;
+    border-radius: 2px;
+    padding: 8px 12px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .secondary-button {
+    background-color: #ffffff;
+    color: #E30613;
+    border: 1px solid #E30613;
+    border-radius: 2px;
+    padding: 8px 12px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: josefin sans;
+    font-weight: bold;
+  }
+
+
+.dicken {
+  font-size: 70px
+}
+.proporción {
+    font-size: 26px; font-family: Montserrat regular; margin-top: -45px;
+}
+
+
+#hero{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 740px;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0)
+  )
+  ,url("Historia/Imagenes/Banner-historia.jpg");
+  background-repeat: no-repeat;
+  background-size: 110%;
+  background-position: center center;
+  margin-bottom: 20px;
+}
+
+.seccion-con-imagen {
+  background-image: url("Historia/Imagenes/Patron1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 110px;
+  width: 100%; 
+  margin-top: -20px;
+}
+
+.seccion-con-imagen2 {
+  background-image: url("Historia/Imagenes/Patron1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 110px;
+  width: 100%; 
+  margin-top: 50px;
+}
+
+.seccion-con-imagen3 {
+  background-image: url("Historia/Imagenes/Patron-2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50px;
+  width: 100%; 
+  margin-top: 50px;
+}
+
+.cuerpo {
+  width: 100%;
+  max-width: 10000px; 
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+
+.izquierda {
+  width: 38%;
+  padding-right: 100px;
+  box-sizing: border-box;
+  margin-left: 200px;
+  margin-top: 100px;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: black;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: black;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  font-family: montserrat;
+  color: black;
+}
+
+.derecha {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 250px;
+  font-size: monteserrat;
+  font-style: italic;
+}
+.derecha p {
+  font-size: 12px;
+}
+
+
+
+
+.cuerpo2 {
+  width: 100%;
+  max-width: 10000px; 
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+
+.izquierda2 {
+  width: 38%;
+  padding-right: 20px;
+  box-sizing: border-box;
+  margin-left: 200px;
+  margin-top: 100px;
+}
+
+.titulo {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.sub {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.parrafo {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  font-family: montserrat;
+  color: black;
+}
+
+
+
+
+.contenedor {
+  display: flex;
+}
+
+.izquierda {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: monteserrat;
+}
+
+.derecha {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: monteserrat;
+  font-style: italic;
+  margin-right: 1.5cm;
+
+}
+.caras{
+  margin-top: -220px;
+  margin-left: 3cm;
+}
+
+
+.pastilla-verde {
+  background-image: url("Historia/Imagenes/Sin-título-1.jpg");
+  background-repeat: repeat-x;
+  background-size: auto 99.8%;
+  padding: 20px;
+  height: 257vh;
+  margin-top: -1.4cm;
+  overflow-x: hidden
+}
+
+.caja-columnas {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px;
+}
+
+.columna-izquierda {
+  width: 40%;
+  padding: 0 20px;
+  box-sizing: border-box;
+  color: white;
+  margin-left: 3.5cm;
+}
+
+
+.columna-derecha {
+  width: 40%;
+  box-sizing: border-box;
+  color: white;
+  margin-top: 2.75cm;
+  margin-left: 40px;
+}
+
+
+.columna-izquierda h1,
+.columna-izquierda h2,
+.columna-izquierda p {
+  margin-top: 20px;
+  color: white;
+}
+
+.columna-derecha p {
+  margin-top: 32px;
+  margin-bottom: 0;
+  color: white;
+  margin-bottom: 3px;
+  margin-right: 65px;
+}
+
+
+
+.imagenesbajo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.moneda {
+  margin: 3cm;
+  text-align: center;
+  margin-top: -5px;
+}
+
+.moneda img {
+  border-radius: 20px;
+}
+
+.seccion-con-imagen4 {
+  background-image: url("Historia/Imagenes/Patron1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 110px;
+  width: 100%; 
+}
+
+.textoimagen {
+  font-size: 10pt;
+  font-style: italic;
+  font-style: bold;
+  color: white;
+  margin-top: 1cm;
+  text-align: center;
+}
+
+.seccion-con-imagen5 {
+  background-image: url("Historia/Imagenes/Patron1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 110px;
+  width: 100%; 
+  margin-top: -6px;
+}
+
+
+.video {
+  text-align: center;
+}
+.vido1 {
+  text-align: center;
+  margin-top: 3cm;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: black;
+  margin-top: 1cm;
+}
+.vido2 {
+ text-align: center;
+ font-size: 24px;
+ font-weight: bold;
+ margin-bottom: 20px;
+ color: black;
+}
+.vido {
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  font-family: montserrat;
+  color: black;
+}
+
+
+
+
+.seccion-con-imagen6 {
+  background-image: url("Historia/Imagenes/Patron1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 110px;
+  width: 100%; 
+  margin-top: 2cm;
+}
+
+
+.importancia {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	padding: 5cm;
+	background-color: #00973A;
+	flex: 1;
+  margin-top: -1.4cm;
+  height: 12cm;
+}
+
+.textoimportante {
+	flex: 1;
+	margin-left: 15px;
+}
+
+h1, h2, p {
+	text-align: left;
+	margin: 0;
+  margin-top: 15px;
+}
+
+.here {
+  margin-top: -2cm;
+  color: white;
+}
+
+.she {
+  color: white;
+}
+.comes {
+  color: white;
+}
+
+.image-container {
+	width: 50%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.image-container img {
+	max-width: 100%;
+	height: auto;
+	margin-right: -1.5cm;
+  border-radius: 20px;
+}
+
+
+
+.anarko {
+  text-align: center;
+  margin-top: 50px;
+}
+.anarko2 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.interactiva {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.mama {
+  position: relative;
+}
+
+.small-image {
+  width: 550px; 
+  height: auto;
+}
+
+
+.info-point {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #E20613;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.info-content {
+  position: absolute;
+  top: -80px;
+  left: 30px;
+  width: 300px;
+  background-color: white;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  display: none;
+}
+
+.info-point:hover .info-content {
+  display: block;
+}
+
+
+
+.infographic {
+  text-align: center;
+}
+
+.infographic h1 {
+  font-size: 24px;
+}
+
+.module {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.bogota {
+  text-align: left;
+  margin-left: 4.8cm;
+  margin-right: 5cm;
+}
+
+.module h2 {
+  font-size: 20px;
+  color: black;
+}
+
+.module-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.module p {
+  font-size: 16px;
+  color: black;
+}
+
+.module-image {
+  width: 250px;
+  border-radius: 5px;
+  margin-right: 5cm;
+}
+
+.seccion-con-imagen9 {
+  background-image: url("Historia/Imagenes/Patron1rojo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 110px;
+  width: 100%; 
+  margin-top: 5cm;
+}
+
+footer {
+  background-color: #E30613;
+  padding: 20px 0;
+  text-align: center;
+  color: white;
+  margin-top: -57px;
+}
+
+footer h3 {
+  margin-bottom: 20px;
+  margin-top: 50px;
+  color: white;
+}
+
+.final {
+  color: white;
+  text-align: center;
+}
