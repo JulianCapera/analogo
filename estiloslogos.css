@@ -1,0 +1,626 @@
+body {
+    font-family: Montserrat extrabold;
+    margin: 0;
+    background-image: url('Inicio/Inicio imagenes/Fondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  
+  header {
+    background-color: #FFED00;
+      background-size: cover;
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 1;
+      box-shadow: 0 2px 20px rgb(0, 0, 0);
+    }
+    
+    .header-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 150%;
+      max-width: 1280px;
+      padding: 0 20px;
+    }
+    
+    .logo-container img {
+      height: 80px;
+      margin-left: -60px;
+      margin-top: 10px;
+    }
+    
+    
+    .button-container {
+      display: flex;
+      align-items: center;
+      margin-right: -60px;
+    }
+    
+    .primary-button {
+      background-color: #E30613;
+      font-family: Josefin Sans;
+      font-weight: bold;
+      color: #ffffff;
+      border: none;
+      border-radius: 2px;
+      padding: 8px 12px;
+      margin-left: 10px;
+      cursor: pointer;
+      font-size: 18px;
+    }
+    
+    .secondary-button {
+      background-color: #ffffff;
+      color: #E30613;
+      border: 1px solid #E30613;
+      border-radius: 2px;
+      padding: 8px 12px;
+      margin-left: 10px;
+      cursor: pointer;
+      font-size: 16px;
+      font-family: josefin sans;
+      font-weight: bold;
+    }
+  
+  
+  .dicken {
+    font-size: 70px
+  }
+  .proporción {
+      font-size: 26px; font-family: Montserrat regular; margin-top: -45px;
+  }
+  
+  
+  #hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 740px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 0)
+    )
+    ,url("Logos/Logos imagenes/Banners.jpg");
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position: center center;
+    margin-bottom: 20px;
+  }
+  
+  .seccion-con-imagen {
+    background-image: url("Logos/Logos imagenes/Patron.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 110px;
+    width: 100%; 
+    margin-top: -20px;
+  }
+  
+
+
+
+.colombia {
+    border-radius: 50%;
+  }
+  
+  .info-section {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .info-block {
+    max-width: 600px;
+    padding: 80px;
+    text-align: center;
+    background-color: #00983A;
+    border-radius: 10px;
+    margin: 10px 20px; 
+    margin-top: 50px;
+  }
+  
+  .info-block img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .info-block h1 {
+    font-size: 36px;
+    margin-top: 1.5cm;
+    color: white;  
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .info-block h2 {
+    font-size: 18px;
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+    text-align: left;
+  }
+  
+  .info-block p {
+    margin-top: 10px;
+    text-align: left;
+    line-height: 1.4;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    font-family: montserrat;
+    color: white;
+    text-align: left;
+  }
+  
+  .info-block br {
+    display: block;
+    margin-top: 10px;
+  }
+  
+
+  .walk {
+    background-color: #E30613;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 600px;
+    margin: 3cm auto 0; 
+  }
+  
+  
+  .walk h1 {
+    font-size: 36px;
+    margin-top: 1.5cm;
+    color: white;  
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .walk h2 {
+    font-size: 18px;
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+    text-align: left;
+  }
+  
+  .walk p {
+    margin-top: 10px;
+    text-align: left;
+    line-height: 1.4;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    font-family: montserrat;
+    color: white;
+  }
+  
+
+
+  .seccion-con-imagen {
+    background-image: url("Logos/Logos imagenes/Patron.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 110px;
+    width: 100%; 
+    margin-top: -20px;
+  }
+  
+
+
+
+  .importancia {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 1cm 5cm 5cm 5cm;
+    background-color: white;
+    flex: 1;
+    margin-top: -1.4cm;
+    height: 15cm;
+    margin-top: 5px;
+  }
+  
+  
+  .textoimportante {
+    flex: 1;
+    margin-left: 15px;
+  }
+  
+  h1, h2, p {
+    text-align: left;
+    margin: 0;
+    margin-top: 15px;
+  }
+  
+  .here {
+    margin-top: 1.5cm;
+    color: black;  
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+  }
+  
+  .she {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: black;
+    text-align: left;
+  }
+  .comes {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    font-family: montserrat;
+    color: black;
+    text-align: left;
+  }
+  
+  .faith {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .faith img {
+    max-width: 100%;
+    height: auto;
+    margin-right: -1.5cm;
+    border-radius: 20px;
+    margin-top: 1cm;
+  }
+
+  .seccion-con-imagen1 {
+    background-image: url("Logos/Logos imagenes/Patron.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 110px;
+    width: 100%; 
+    margin-top: 4cm;
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  main {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .hola2 {
+    width: calc(80% / 3 - 20px);
+    margin: 50px;
+    margin-top: 2cm;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  
+  .hola {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+
+  .secu{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: black;
+    text-align: left;
+    margin-top: 50px;
+  }
+  
+  .hola3 {
+    margin-top: 20px;
+    height: 350px;
+    width: 350px;
+  }
+
+
+  .texto {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    margin-top: -5px;
+    font-family: montserrat;
+    color: black;
+    text-align: left;
+  }
+  
+  .hola img {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+
+  .seccion-con-imagen2 {
+    background-image: url("Logos/Logos imagenes/Patron.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 110px;
+    width: 100%; 
+    margin-top: 4cm;
+  }
+
+.here2 {
+  margin-top: 1.5cm;
+  color: black;  
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 3.5cm;
+}
+
+.here3 {
+  margin-top: 1.5cm;
+  color: black;  
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 3.5cm;
+}
+
+.here4 {
+  margin-top: 1.5cm;
+  color: black;  
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 0.5cm;
+}
+
+.here5 {
+  margin-top: 1.5cm;
+  color: black;  
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 4.4cm;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+  transition: transform 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}
+
+.logo:hover::after {
+  content: "";
+  position: absolute; 
+  top: 98%; 
+  left: 88%;
+  transform: translate(-50%, -50%); 
+  width: 350px;
+  height: 350px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: box-shadow 0.3s ease;
+}
+
+
+.pastilla-verde {
+  background-color: #00983A;
+  padding: 20px;
+  color: white;
+  margin-top: 4cm;
+}
+
+
+
+section {
+  padding: 20px;
+}
+
+.ACDC {
+  margin-top: 3cm;
+  color: white;  
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.DCAC{
+  text-align: center;
+  
+}
+.AC {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: white;
+  text-align: left;
+  margin-left: 5cm;
+}
+.DC {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  font-family: montserrat;
+  color: white;
+  text-align: left;
+  margin-left: 5cm;
+  margin-right: 6cm;
+}
+.money {
+  margin-left: 5.5cm;
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: montserrat;
+  color: white;
+  text-align: left;
+}
+
+ul, ol {
+  margin-top: 0;
+}
+
+iframe {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+
+.botondescarga {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: box-shadow 0.3s ease;
+  margin-left: 5cm;
+  background-color: white;
+  color: #E30613;
+  border: 1px solid #E30613;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: josefin sans;
+  font-weight: bold;
+}
+
+
+
+
+#action-button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #E30613;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: Josefin Sans;
+  font-size: 15pt;
+}
+
+#action-button:hover {
+  background-color: #FFED00;
+}
+
+#action-button:active {
+  background-color: #27348B;
+}
+
+
+.seccion-con-imagen3 {
+  background-image: url("Logos/Logos imagenes/Patron.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 110px;
+  width: 100%; 
+  margin-top: -6px;
+}
+
+
+
+
+
+.popular {
+text-align: center;
+}
+.quiz-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #E30613;
+  color: white;
+  font-size: 30px;
+  font-family: 'Josefin Sans', sans-serif;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 2px solid white;
+  transition: background-color 0.3s ease;
+}
+
+.quiz-link:hover {
+  background-color: #FFED00;
+}
+
+.quiz-link span {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.monster {
+  font-size: 36px;
+  color: black;  
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 50px;
+  text-align: center;
+}
+.mon{
+  font-size: 18px;
+  margin-top: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: black;
+  text-align: center;
+}
+
+
+.seccion-con-imagen9 {
+  background-image: url("Historia/Imagenes/Patron1rojo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 110px;
+  width: 100%; 
+  margin-top: 5cm;
+}
+
+footer {
+  background-color: #E30613;
+  padding: 20px 0;
+  text-align: center;
+  color: white;
+  margin-top: -57px;
+}
+
+footer h3 {
+  margin-bottom: 20px;
+  margin-top: 50px;
+  color: white;
+}
+
+.final {
+  color: white;
+  text-align: center;
+}
